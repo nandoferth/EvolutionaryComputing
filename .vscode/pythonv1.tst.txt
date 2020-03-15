@@ -1,0 +1,26 @@
+
+lab Session 1
+
+python & Greedy Algorihm
+
+who created python?
+explain the game of the name?
+what is the cwrent version of python?
+explain the term "python"
+explain the difference between the lollewing:
+    * list
+    * tuple
+    * set
+    * dictionary 
+    * array
+whie a greedy algorithm in python for
+
+0/1 KP
+
+c = 11
+w = { 3,4,5,9,4}
+v = {3,4,4,10,4}
+
+cmp 
+t = 9
+d = {5,2,1}

@@ -1,0 +1,7 @@
+lab session 2
+Dynamic Programming
+
+write python script to solve de following problems msing Dynamic Programing:
+-0/1 KP
+-cmp
+-levenshtein distance
