@@ -14,7 +14,17 @@ def knapSack(W , wt , val , n):
     else: 
         return max(val[n-1] + knapSack(W-wt[n-1] , wt , val , n-1), knapSack(W , wt , val , n-1))
 
-"""
+def CC(coin,n):
+    if n==-1:
+        return 0
+    if coin[n]==1:
+        return 1
+    else:
+        return CC(coin,n-1)+coin[n]
+"""coin=[0,1,2,5,10,20,50]
+n = len(coin)-1
+print(CC(coin,n))
+
 val = [5,18,26,35] 
 wt = [1,3,4,5] 
 W = 13
