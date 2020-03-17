@@ -32,7 +32,7 @@ if __name__ == "__main__":
             chromosome.wttot=0
             #chromosome.DecodepChromosome(0,chromosome.L_chromosome//2,chromosome.L_chromosome//2+chromosome.div_chromosome,chromosome.population[0],1)
         elif option == 2:
-            chromosomeCoin = CoinChange(16,10,4,30)
+            chromosomeCoin = CoinChange(16,40,4,33)
             chromosomeCoin.GeneratePopulation()
             chromosomeCoin.population.sort(key=functools.cmp_to_key(chromosomeCoin.CompareChromosomes))
             chromosomeCoin.EvaluateChromosomes()

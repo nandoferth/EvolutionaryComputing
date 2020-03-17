@@ -98,8 +98,8 @@ class CoinChange:
         print("Best solution so far:")
         print(
             "W:", str(self.DecodepChromosome(0,0,self.div_chromosome,self.population[0])),
-            "Weight",self.cointot1,
-            "Weight_Total:", self.Coin
+            "Coin",self.cointot1,
+            "Coin_Total:", self.Coin
             #"Def:", min(self.FitnessPopulation)
         )
         self.populationCopy[0]=self.population[0]
